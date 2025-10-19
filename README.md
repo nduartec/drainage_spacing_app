@@ -1,11 +1,27 @@
-# Subsurface Drainage Spacing App 🌾
+# Subsurface Drainage Spacing App
 
-Aplicación educativa desarrollada en Streamlit que muestra los principales modelos
-de cálculo de espaciamiento de drenaje subsuperficial:
+App educativa (Streamlit) para explorar y graficar **métodos de espaciamiento de drenaje subsuperficial**.
 
-- Dupuit–Forchheimer  
-- Hooghoudt (flujo permanente)  
-- Ernst (flujo anisotrópico)  
-- Glover–Dumm (flujo no permanente)  
+## Modelos incluidos
+- Dupuit–Forchheimer
+- Hooghoudt – flujo permanente
+- Ernst – flujo anisotrópico
+- Glover–Dumm – transitorio
 
-Cada modelo permite ajustar parámetros hidráulicos y graficar relaciones S–q o H–t.
+## Estructura
+```
+drainage-spacing-app/
+├─ drainage_spacing_app.py
+├─ requirements.txt
+└─ README.md
+```
+
+## Cómo ejecutar localmente
+```bash
+pip install -r requirements.txt
+streamlit run drainage_spacing_app.py
+```
+
+## Despliegue
+Sube a GitHub y usa Streamlit Cloud:
+https://share.streamlit.io
